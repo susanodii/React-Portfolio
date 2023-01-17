@@ -8,17 +8,16 @@ import PORTFOLIO from './PORTFOLIO/PORTFOLIO'
 
 function App() {
   return (
-    
-      <Routes>
-        <Route path="/" element={<PORTFOLIO />} />
-        {/* <PORTFOLIO /> */}
+    <Routes>
+      <Route path="/" element={<PORTFOLIO />} />
+      
+      {/* <PORTFOLIO /> */}
 
-        {/* <Routes>
+      {/* <Routes>
             <Route path="/home" element={<home />} />
             <Route path="/about" element={<about />} />
         </Routes> */}
-      </Routes>
-    
+    </Routes>
   )
 }
 
