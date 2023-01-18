@@ -22,9 +22,14 @@ const PORTFOLIO = () => {
   }, [])
 
   const [isMobile, setIsMobile] = useState(false)
+  // const[isShift, setIsShift] = useState(false)
 
   return (
-    <div  className='body-container'>
+    <div
+      className="
+    
+    "
+    >
       <header className="header-container" id="home">
         <div className="brief-introduction">
           <h1 className="introduction">
@@ -43,28 +48,35 @@ const PORTFOLIO = () => {
           </button>
         </div>
       </header>
-      <nav className={isMobile? 'mobile-nav-links':'nav-section-container'}>
+      <nav className="nav-section-container">
         <a href="#home" className="logo">
           {' '}
           SUZY
         </a>
         {/* <Link to='/home/#section1'></Link> */}
-        <ul className="nav-links" />
 
-        <a href=" #home" className="anchor-link">
-          <li className="home">Home</li>
-        </a>
+        <ul className={isMobile ? 'mobile-nav-links' : 'nav-links'}
+        onClick={() => setIsMobile(false)}
+        
+        >
+          {/* <ul className="nav-links"> */}
+          <a href=" #home" className="anchor-link">
+            <li className="home">Home</li>
+          </a>
 
-        <a href="#About" className="anchor-link">
-          <li> About</li>
-        </a>
-        <a href="#works" className="anchor-link">
-          <li> Portfolio</li>
-        </a>
-        <a href="#contact-my-number" className="anchor-link">
-          <li> Contact</li>
-        </a>
-        <button className="mobile-menu-icon">
+          <a href="#About" className="anchor-link">
+            <li> About</li>
+          </a>
+          <a href="#works" className="anchor-link">
+            <li> Portfolio</li>
+          </a>
+          <a href="#contact-my-number" className="anchor-link">
+            <li> Contact</li>
+          </a>
+        </ul>
+
+        <button className="mobile-menu-icon"
+        onClick={() => setIsMobile(!isMobile)}>
           {isMobile ? <FaTimes /> : <FaBars />}
         </button>
       </nav>
@@ -72,7 +84,9 @@ const PORTFOLIO = () => {
         {/* <section class="about-section"> 
     <h1>ABOUT</h1>
 </section> */}
-        <section className="section-about-section">
+        <section className="section-about-section"
+        
+        >
           <h2 className="subTopic-about-me" id="About" data-aos="fade-right">
             ABOUT SUSAN
           </h2>
