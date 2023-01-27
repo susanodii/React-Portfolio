@@ -2,7 +2,7 @@ import './App.css'
 
 import { Route, Routes } from 'react-router-dom'
 
-import PORTFOLIO from './PORTFOLIO/PORTFOLIO'
+import PORTFOLIO from './PORTFOLIO/PORTFOLIOUI'
 
 // import React, {Component} from 'react';
 

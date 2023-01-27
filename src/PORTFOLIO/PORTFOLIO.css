@@ -412,17 +412,22 @@ section.contact-me {
   font-size: 20px;
   margin-bottom: 2rem;
 }
+
+
 input {
   display: block;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-top: 12px;
-  padding-bottom: 12px;
+   /* padding-left: 10rem;  */
+   padding-right: 10rem; 
+  padding-top: 12px; 
+   padding-bottom: 12px; 
+  /* padding: 200px; */
   background-color: black;
   outline: none;
   color: white;
   position: relative;
-  left: 1rem;
+  /* left: 1rem; */
+  width: 100%;
+  margin-bottom: 1rem;
   /* border: 1px solid black; */
 }
 
@@ -431,6 +436,7 @@ input {
   position: absolute;
   left: 0;
   font-size: 18px;
+  padding-left: 0;
 
   /* text-align: left; */
 }
@@ -445,25 +451,31 @@ input {
 
 ::placeholder {
   position: absolute;
-  left: 1rem;
-  font-size: 18px;
-  text-align: left;
+    left: 1rem;   
+  font-size: 14px;
+  /* text-align: left; */
 }
 
 /* text-area */
 textarea {
   text-align: center;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   background-color: black;
   background-color: white;
   color: #4b4c4f;
   background-color: black;
   /* margin-top: 2rem; */
+  display: block;
+  text-align: start;
+  width: 100%;
+  color: white;
+ 
 }
+
 .button-submit {
   display: block;
   text-align: end;
-  
+  margin-top: 1rem;
   
 }
 

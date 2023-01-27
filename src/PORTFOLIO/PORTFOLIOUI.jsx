@@ -1,9 +1,6 @@
 import './PORTFOLIO.css'
+import 'aos/dist/aos.css'
 
-import { AiOutlineArrowRight } from 'react-icons/ai'
-import { RxDoubleArrowUp } from 'react-icons/rx'
-import React, { useEffect, useState } from 'react'
-//  import { Link } from 'react-router-dom'
 import {
   FaBars,
   FaGithub,
@@ -12,11 +9,19 @@ import {
   FaTimes,
   FaTwitter,
 } from 'react-icons/fa'
+import React, { useEffect, useState } from 'react'
+
 import AOS from 'aos'
-import 'aos/dist/aos.css'
+import { AiOutlineArrowRight } from 'react-icons/ai'
+import { RxDoubleArrowUp } from 'react-icons/rx'
+
+//  import { Link } from 'react-router-dom'
+
+
+
 // import { Route, Routes } from "react-router-dom"
 
-const PORTFOLIO = () => {
+const PORTFOLIOUI = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 })
   }, [])
@@ -418,4 +423,4 @@ const PORTFOLIO = () => {
   )
 }
 
-export default PORTFOLIO
+export default PORTFOLIOUI
