@@ -12,8 +12,11 @@ import {
 import React, { useEffect, useState } from 'react'
 
 import AOS from 'aos'
+import AgroEase from '../PORTFOLIO/asset/AgroEase.PNG'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { RxDoubleArrowUp } from 'react-icons/rx'
+import contractMe from '../PORTFOLIO/asset/contractMe.PNG'
+import robofrieds from '../PORTFOLIO/asset/robofrieds.PNG'
 
 //  import { Link } from 'react-router-dom'
 
@@ -149,28 +152,28 @@ const PORTFOLIOUI = () => {
           <section className="project-card-wrapper">
             <div className="project-card" id="first-project">
               <img
-                src="https://user-images.githubusercontent.com/81011757/211130929-6cc6c804-3899-403e-99b0-36e644c22b99.PNG"
+                src={AgroEase}
                 alt=""
                 className="news-img"
                 id="fisrtProject-img"
               />
               <section className="card-content">
-                <h3 className="project-title">Expanding Cards</h3>
+                <h3 className="project-title">AgroEase</h3>
                 <p className="project-brief">
                   {' '}
-                  An Expanding Card for viewing different images
+                  An e-commerce platform for buying and selling of agricultural product
                 </p>
               </section>
               <section className="project-links">
                 <a
                   // href="https://github.com/susanodii/NEW_BLOG-WEBSITE#readme"
-                  href="https://github.com/susanodii/Expanding-cards/tree/main#readme"
+                  href="https://github.com/Tiidelab-Fellowship/Agro-Ease-FE"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaGithub size={35} />
                 </a>
-                <a href="https://expanding-cards-js-susan-odii.netlify.app/">
+                <a href="https://agritec-solution.vercel.app/">
                   <FaGlobe size={35} />
                 </a>
               </section>
@@ -178,25 +181,25 @@ const PORTFOLIOUI = () => {
             {/* 2 project */}
             <div className="project-card" id="second-project">
               <img
-                src=" https://user-images.githubusercontent.com/81011757/178169925-2eaaa0c3-dcde-44a3-bd33-5f7af44bbf47.PNG"
+                src={robofrieds}
                 alt=""
                 className="product-img"
               />
               {/* <img src="https://user-images.githubusercontent.com/81011757/178169925-2eaaa0c3-dcde-44a3-bd33-5f7af44bbf47.PNG" alt="" class="product-img"> */}
               <section className="card-content">
-                <h3 className="project-title">Product Landing Page</h3>
-                <p className="project-brief"> A Detergent Website</p>
+                <h3 className="project-title">Robo Friends</h3>
+                <p className="project-brief"> A Robot Webapp</p>
               </section>
               <section className="project-links">
                 <a
-                  href="https://github.com/susanodii/Landing-page/tree/main "
+                  href="https://github.com/susanodii/robo-friends "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {' '}
                   <FaGithub size={35} />
                 </a>
-                <a href="https://product-landing-page-susan.netlify.app/">
+                <a href=" https://robot-friends-xrfr.vercel.app/">
                   {' '}
                   <FaGlobe size={35} />
                 </a>
@@ -232,6 +235,38 @@ const PORTFOLIOUI = () => {
                 </a>
               </section>
             </div>
+
+
+
+
+{/* 4 */}
+
+<div className="project-card" id="first-project">
+              <img
+                src={contractMe}
+                alt=""
+                className="news-img"
+                id="fisrtProject-img"
+              />
+              <section className="card-content">
+                <h3 className="project-title">ContractMe</h3>
+                <p className="project-brief"> Connect employers to artisans for contracts</p>
+              </section>
+              <section className="project-links">
+                <a
+                  // href="https://github.com/susanodii/NEW_BLOG-WEBSITE#readme"
+                  href=" https://github.com/AnnieDebbie/ContractMe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub size={35} />
+                </a>
+                <a href=" https://640ae5d5d326fb619a335f63--contract-me.netlify.app/">
+                  <FaGlobe size={35} />
+                </a>
+              </section>
+            </div>
+            
           </section>
           {/* STACK SECTION */}
           <section className="section stack-section">
