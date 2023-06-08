@@ -14,9 +14,12 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos'
 import AgroEase from '../PORTFOLIO/asset/AgroEase.PNG'
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import Github from '../PORTFOLIO/asset/Github.PNG'
 import { RxDoubleArrowUp } from 'react-icons/rx'
-import contractMe from '../PORTFOLIO/asset/contractMe.PNG'
 import robofrieds from '../PORTFOLIO/asset/robofrieds.PNG'
+
+// import contractMe from '../PORTFOLIO/asset/contractMe.PNG'
+
 
 //  import { Link } from 'react-router-dom'
 
@@ -102,13 +105,13 @@ const PORTFOLIOUI = () => {
             <div className="summary-of-me">
               <p className="about-me-details">
                 Susan Odii is a highly moltivated, determined and goal oriented
-                individual with background knowledge of Engineering.
+                individual with background knowledge of Engineering from the university of Nigeria Nsukka.
+                She has great passion for creating beautiful and functional websites.
                 Furthermore, she is a good team player and she pays attention to
-                details. Susan Odii is in love with Tech and she has the
-                knowledge of HTML, CSS, JavaScript and React js . <br />
-                Susan is a graduate of the university of Nigeria Nsukka and her
-                goal is to become a sought-after software Engineer. <br />
-                Susan's hobbies are listening to good musics and studying.
+                details. Susan has experience in  HTML, CSS, JavaScript and React js . <br />
+                Susan is dedicated to learning and growing as a developer, always seeking out new challanges and opportunities to expand her knowledge.
+                <br />
+                Susan's hobbies are listening to good music and studying.
               </p>
             </div>
             <div className="susu">
@@ -152,29 +155,30 @@ const PORTFOLIOUI = () => {
           <section className="project-card-wrapper">
             <div className="project-card" id="first-project">
               <img
-                src={AgroEase}
+                src={Github}
                 alt=""
                 className="news-img"
                 id="fisrtProject-img"
               />
               <section className="card-content">
-                <h3 className="project-title">AgroEase</h3>
+                <h3 className="project-title">Github Users</h3>
                 <p className="project-brief">
                   {' '}
-                  An e-commerce platform for buying and selling of agricultural product
+                  Github users is a webapp for seaching users profile on Github
                 </p>
               </section>
               <section className="project-links">
                 <a
                   // href="https://github.com/susanodii/NEW_BLOG-WEBSITE#readme"
-                  href="https://github.com/Tiidelab-Fellowship/Agro-Ease-FE"
+                  href=" https://github.com/susanodii/Github-Users"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaGithub size={35} />
                 </a>
-                <a href="https://agritec-solution.vercel.app/">
+                <a href="https://github-user-app-alpha.vercel.app/"  target='_blank' rel='noreferrer'>
                   <FaGlobe size={35} />
+                  
                 </a>
               </section>
             </div>
@@ -199,7 +203,7 @@ const PORTFOLIOUI = () => {
                   {' '}
                   <FaGithub size={35} />
                 </a>
-                <a href=" https://robot-friends-xrfr.vercel.app/">
+                <a href=" https://robot-friends-xrfr.vercel.app/"  target='_blank' rel='noreferrer'>
                   {' '}
                   <FaGlobe size={35} />
                 </a>
@@ -230,7 +234,7 @@ const PORTFOLIOUI = () => {
                 >
                   <FaGithub size={35} />
                 </a>
-                <a href="https://susan-odii-todolist.netlify.app/">
+                <a href="https://susan-odii-todolist.netlify.app/"  target='_blank' rel='noreferrer'>
                   <FaGlobe size={35} />
                 </a>
               </section>
@@ -243,25 +247,25 @@ const PORTFOLIOUI = () => {
 
 <div className="project-card" id="first-project">
               <img
-                src={contractMe}
+                src={AgroEase}
                 alt=""
                 className="news-img"
                 id="fisrtProject-img"
               />
               <section className="card-content">
-                <h3 className="project-title">ContractMe</h3>
-                <p className="project-brief"> Connect employers to artisans for contracts</p>
+                <h3 className="project-title">AgroEase</h3>
+                <p className="project-brief"> AgroEase is an e-commerce webapp for buying and selling of agricultural products</p>
               </section>
               <section className="project-links">
                 <a
                   // href="https://github.com/susanodii/NEW_BLOG-WEBSITE#readme"
-                  href=" https://github.com/AnnieDebbie/ContractMe"
+                  href=" https://github.com/Tiidelab-Fellowship/Agro-Ease-FE"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaGithub size={35} />
                 </a>
-                <a href=" https://640ae5d5d326fb619a335f63--contract-me.netlify.app/">
+                <a href=" https://agritec-solution.vercel.app/"  target='_blank' rel='noreferrer'>
                   <FaGlobe size={35} />
                 </a>
               </section>
