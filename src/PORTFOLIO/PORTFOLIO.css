@@ -615,7 +615,8 @@ bi .bi-arrow-up-square-fill {
 
 @media (max-width:780px) {
    .body-container{
-     overflow-x: hidden; 
+     overflow-x:hidden; 
+     overflow: hidden;
     height:100%;
     width:100%;
     margin:0;
