@@ -16,7 +16,9 @@ import AgroEase from '../PORTFOLIO/asset/AgroEase.PNG'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import Github from '../PORTFOLIO/asset/Github.PNG'
 import { RxDoubleArrowUp } from 'react-icons/rx'
-import robofrieds from '../PORTFOLIO/asset/robofrieds.PNG'
+import adminDashboared from '../PORTFOLIO/asset/adminDashboared.PNG'
+
+// import robofrieds from '../PORTFOLIO/asset/robofrieds.PNG'
 
 // import contractMe from '../PORTFOLIO/asset/contractMe.PNG'
 
@@ -107,9 +109,9 @@ const PORTFOLIOUI = () => {
                 Susan Odii is a highly moltivated, determined and goal oriented
                 individual with background knowledge of Engineering from the university of Nigeria Nsukka.
                 She has great passion for creating beautiful and functional websites.
-                Furthermore, she is a good team player and she pays attention to
-                details. Susan has experience in  HTML, CSS, JavaScript and React js . <br />
+                Furthermore, she is a good team player with and communicates effectively. Susan has experience in  HTML, CSS, JavaScript and React js . <br />
                 Susan is dedicated to learning and growing as a developer, always seeking out new challanges and opportunities to expand her knowledge.
+               
                 <br />
                 Susan's hobbies are listening to good music and studying.
               </p>
@@ -129,18 +131,18 @@ const PORTFOLIOUI = () => {
               </h4>
               <p className="tiidelab-explain">
                 {' '}
-                Worked in a team to design and develop a Agro Tech E-commerce
+                Worked in a team to design and develop an e-commerce
                 system, where buyers and sellers of agricultural products can
-                transact together.{' '}
+                transact business.{' '}
               </p>
             </div>
             <div className="areas-of-work1">
               <h4 className="at-tiidelab">
                 {' '}
-                FRONTEND DEVELOPER( TRAINEE AT Women Tech sters Fellowship)
+                FRONTEND DEVELOPER( TRAINEE AT Women Tech Sters Fellowship)
               </h4>
               <p className="tiidelab-explain">
-                Implemented websites, mobile applications, and landing pages
+                Implemented websites, and landing pages
                 from concept through deployment. Used markup languages like HTML
                 to create user-friendly web pages.
               </p>
@@ -176,7 +178,7 @@ const PORTFOLIOUI = () => {
                 >
                   <FaGithub size={35} />
                 </a>
-                <a href="https://github-user-app-alpha.vercel.app/"  target='_blank' rel='noreferrer'>
+                <a href="https://github-users-ecru.vercel.app/"  target='_blank' rel='noreferrer'>
                   <FaGlobe size={35} />
                   
                 </a>
@@ -185,25 +187,25 @@ const PORTFOLIOUI = () => {
             {/* 2 project */}
             <div className="project-card" id="second-project">
               <img
-                src={robofrieds}
+                src={adminDashboared}
                 alt=""
                 className="product-img"
               />
               {/* <img src="https://user-images.githubusercontent.com/81011757/178169925-2eaaa0c3-dcde-44a3-bd33-5f7af44bbf47.PNG" alt="" class="product-img"> */}
               <section className="card-content">
-                <h3 className="project-title">Robo Friends</h3>
-                <p className="project-brief"> A Robot Webapp</p>
+                <h3 className="project-title">Admin Dashboard</h3>
+                <p className="project-brief"> A dashboard the shows customers transaction</p>
               </section>
               <section className="project-links">
                 <a
-                  href="https://github.com/susanodii/robo-friends "
+                  href="https://github.com/susanodii/Admin-dashboard "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {' '}
                   <FaGithub size={35} />
                 </a>
-                <a href=" https://robot-friends-xrfr.vercel.app/"  target='_blank' rel='noreferrer'>
+                <a href="https://admin-dashboard-rose-five.vercel.app/"  target='_blank' rel='noreferrer'>
                   {' '}
                   <FaGlobe size={35} />
                 </a>
@@ -214,7 +216,7 @@ const PORTFOLIOUI = () => {
 
             {/* 3 */}
 
-            <div className="project-card" id="first-project">
+            {/* <div className="project-card" id="first-project">
               <img
                 src="https://user-images.githubusercontent.com/81011757/211134189-6e62e04b-d748-4b72-9032-8d1a4023af63.PNG"
                 alt=""
@@ -240,7 +242,7 @@ const PORTFOLIOUI = () => {
               </section>
             </div>
 
-
+ */}
 
 
 {/* 4 */}
