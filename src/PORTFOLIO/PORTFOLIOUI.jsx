@@ -296,6 +296,7 @@ const PORTFOLIOUI = () => {
               <img src='cssss3.png' className='my-stack' alt='css'></img>
               <img src='jsImg.png' className='my-stack' alt='js'></img>
               <img src='rctImg.png' className='my-stack-rct' alt='react'></img>
+              <img src='TS.png' className='my-stack-rct' alt='typescript'></img>
               <img src='git.png' className='my-stack-rct' alt='git'></img>
             </div>
           </section>
