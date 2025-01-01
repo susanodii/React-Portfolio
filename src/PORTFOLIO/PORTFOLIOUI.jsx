@@ -172,14 +172,14 @@ const PORTFOLIOUI = () => {
               <section className='project-links'>
                 <a
                   // href="https://github.com/susanodii/NEW_BLOG-WEBSITE#readme"
-                  href='https://vercel.com/susanodiis-projects/github-users-susan'
+                  href=' https://github.com/susanodii/Github-Users'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <FaGithub size={35} />
                 </a>
                 <a
-                  href='https://github-users-ecru.vercel.app/'
+                  href='https://github-users-susan.vercel.app/'
                   target='_blank'
                   rel='noreferrer'
                 >
